@@ -11,6 +11,7 @@ require_relative "rb_notifu"
 require_relative "terminal_notifier"
 require_relative "terminal_title"
 require_relative "tmux"
+require_relative "instrumentation"
 
 module Notiffany
   class Notifier

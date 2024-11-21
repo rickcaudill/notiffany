@@ -31,6 +31,8 @@ Style/Documentation:
     - 'lib/notiffany/notifier/base.rb'
     - 'lib/notiffany/notifier/detected.rb'
     - 'lib/notiffany/notifier/tmux.rb'
+    - 'lib/notiffany/notifier/instrumentation.rb'
+
 
 # Offense count: 52
 # Cop supports --auto-correct.
@@ -50,6 +52,7 @@ Style/MultilineMethodCallBraceLayout:
     - 'spec/lib/notiffany/notifier/rb_notifu_spec.rb'
     - 'spec/lib/notiffany/notifier/terminal_notifier_spec.rb'
     - 'spec/lib/notiffany/notifier/tmux_spec.rb'
+    - 'spec/lib/notiffany/notifier/instrumentation_spec.rb'
 
 # Offense count: 25
 # Cop supports --auto-correct.
@@ -61,6 +64,7 @@ Style/MutableConstant:
     - 'lib/notiffany/notifier/file.rb'
     - 'lib/notiffany/notifier/gntp.rb'
     - 'lib/notiffany/notifier/growl.rb'
+    - 'lib/notiffany/notifier/instrumentation.rb'
     - 'lib/notiffany/notifier/libnotify.rb'
     - 'lib/notiffany/notifier/notifysend.rb'
     - 'lib/notiffany/notifier/rb_notifu.rb'
@@ -81,10 +85,13 @@ Style/SignalException:
     - 'lib/notiffany/notifier/detected.rb'
     - 'lib/notiffany/notifier/file.rb'
     - 'lib/notiffany/notifier/growl.rb'
+    - 'lib/notiffany/notifier/instrumentation.rb'
     - 'lib/notiffany/notifier/notifysend.rb'
     - 'lib/notiffany/notifier/terminal_notifier.rb'
     - 'lib/notiffany/notifier/tmux.rb'
     - 'spec/lib/notiffany/notifier/detected_spec.rb'
+    - 'spec/lib/notiffany/notifier/instrumentation_spec.rb'
+
 
 # Offense count: 13
 # Cop supports --auto-correct.
