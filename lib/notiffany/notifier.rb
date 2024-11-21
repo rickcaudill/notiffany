@@ -63,7 +63,8 @@ module Notiffany
       { emacs: Emacs },
       { tmux: Tmux },
       { terminal_title: TerminalTitle },
-      { file: File }
+      { file: File },
+      { instrumentation: Instrumentation }
     ]
 
     Env = Nenv::Builder.build do
