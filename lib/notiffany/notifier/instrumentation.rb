@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require "notiffany/notifier/base"
+
+#Please note: This does not work yet as it means we need some sort of Pub/Sub to be implemented.  I will work on this at some point.
 module Notiffany
   class Notifier
 
